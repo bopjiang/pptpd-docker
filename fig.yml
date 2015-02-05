@@ -1,0 +1,6 @@
+mypptpd:
+    build: .
+    privileged: true    
+    ports:
+        - "1723:1723"
+ 
